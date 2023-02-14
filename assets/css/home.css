@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background: rgb(228, 0, 0);
+    height: 50px;
+    padding: 8px 16px;
+    justify-content: space-between;
+}
+.logo {
+    width: 100px;
+    height: 30px;
+    background-color: green;
+}
+nav {
+    display: flex;
+    width: 40%;
+    background: blue;
+    justify-content: space-between;
+}
+aside {
+    width: 30%;
+    height: 30px;
+    background-color: blue;
+}
+.banner {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFB30E !important;
+}
+.banner aside {
+    background: yellow;
+    width: 40%;
+    height: 70%;
+}
+.banner article {
+    background: yellow;
+    width: 40%;
+    height: 70%;
+}
+.content1 {
+    background: rgb(255, 0, 0);
+    height: 400px;
+    align-items: center;
+
+    display: flex;
+    justify-content: space-around;
+}
+.content1 .item {
+    width: 20%;
+    height: 70%;
+    background: yellow;
+}
+.content2 {
+    height: 500px;
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+  
+}
+.content2 .title {
+    width: 40%;
+    height: 50px;
+    background: yellow;
+    margin: 3rem auto;
+
+}
+.c2-item .item2 {
+    height: 200px;
+    width: 15%;
+    background: yellow;
+}
+.c2-item {
+    display: flex;
+    justify-content: space-around;
+
+}
+footer {
+    background: orangered;
+    height: 400px;
+    width: 100%;
+}
